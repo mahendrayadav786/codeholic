@@ -2,5 +2,25 @@
 
 
 {% block title %}About{% endblock title%}
+{% block aboutactive%}active{% endblock aboutactive%}
 
-{% block body %}About Page{% endblock body %}
+
+    <!-- Custom styles for this template -->
+{% block body %}
+<div class="container">
+<div id="carouselExampleSlidesOnly" class="carousel slide" data-ride="carousel">
+  <div class="carousel-inner">
+    <div class="carousel-item active">
+        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRa6AJSwGhoKDW3hQ-IfUyf1jLmfLd3YJf4jsYbcZHevb7BcHJtDRHITTX5GnKwTs7d__k&usqp=CAU" class="d-block w-100" alt="...">
+    </div>
+    <div class="carousel-item">
+      <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRa6AJSwGhoKDW3hQ-IfUyf1jLmfLd3YJf4jsYbcZHevb7BcHJtDRHITTX5GnKwTs7d__k&usqp=CAU" class="d-block w-100" alt="...">
+    </div>
+    <div class="carousel-item">
+      <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRa6AJSwGhoKDW3hQ-IfUyf1jLmfLd3YJf4jsYbcZHevb7BcHJtDRHITTX5GnKwTs7d__k&usqp=CAU" class="d-block w-100" alt="...">
+    </div>
+  </div>
+</div>
+    </div>
+</div>
+{% endblock body %}
