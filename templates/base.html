@@ -40,10 +40,20 @@
       </li>
 
     </ul>
-    <form class="form-inline my-2 my-lg-0">
-      <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
-      <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
-    </form>
+<!--    <form class="form-inline my-2 my-lg-0" method = "get" action="/search/">{% csrf_token %}-->
+<!--      <input class="form-control mr-sm-2" type="search" placeholder="Search" name = "query" aria-label="Search">-->
+<!--&lt;!&ndash;      <button class="btn btn-outline-success my-2 my-sm-0"  type="submit">Search</button>&ndash;&gt;-->
+<!--    </form>-->
+  <button type="button" class="btn btn-success mr-2" data-toggle="modal" data-target="#LoginModal">
+  Login
+</button>
+
+
+<button type="button" class="btn btn-success mr-2" data-toggle="modal" data-target="#SignupModal">
+  Sign up
+</button>
+
+
   </div>
 </nav>
 
@@ -54,8 +64,104 @@
     <span aria-hidden="true">&times;</span>
   </button>
 </div>
-
     {% endfor %}
+
+    <!-- Button trigger modal -->
+
+
+<!-- Modal -->
+<div class="modal fade" id="SignupModal" tabindex="-1" aria-labelledby="SignupModalLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="SignupModalLabel">Sign up</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+
+        <form  action = "/signup/" method = "post">{% csrf_token %}
+  <div class="form-group">
+    <label for="Fname">First Name</label>
+    <input type="text" class="form-control" name= "Fname" id="Fname" aria-describedby="FnameHelp" required>
+
+  </div>
+  <div class="form-group">
+    <label for="Lname">Last Name</label>
+    <input type="Lname" class="form-control" name= "Lname"id="Lname" aria-describedby="LnameHelp" required>
+
+  </div>
+
+          <div class="form-group">
+    <label for="email">Email address</label>
+    <input type="email" class="form-control" name= "email"id="email" aria-describedby="emailHelp" required>
+
+  </div>
+  <div class="form-group">
+    <label for="pass1">Password</label>
+    <input type="password" class="form-control" id="pass1" name = "pass1" required>
+  </div>
+<div class="form-group">
+    <label for="pass2">Confirm Password</label>
+    <input type="password" class="form-control" id="pass2" name="pass2" required>
+  </div>
+
+          <button type="submit" class="btn btn-primary">Submit</button>
+</form>
+
+
+      </div>
+            </div>
+    </div>
+  </div>
+</div>
+
+
+
+
+
+    <div class="modal fade" id="LoginModal" tabindex="-1" aria-labelledby="LoginModalLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="LoginModalLabel">Login</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+
+        <form>
+
+          <div class="form-group">
+    <label for="email_login">Email address</label>
+    <input type="email" class="form-control" name= "email_login" id="email_login" aria-describedby="emailHelp">
+
+  </div>
+  <div class="form-group">
+    <label for="login_pass">Password</label>
+    <input type="password" class="form-control" id="login_pass" name = "login_pass">
+  </div>
+
+
+          <button type="submit" class="btn btn-primary">Login</button>
+</form>
+
+
+      </div>
+            </div>
+    </div>
+  </div>
+</div>
+
+
+
+
+
+
+
+
     {% block body %} {% endblock body%}
     <!-- Optional JavaScript; choose one of the two! -->
 
