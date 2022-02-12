@@ -40,21 +40,27 @@
       </li>
 
     </ul>
-<!--    <form class="form-inline my-2 my-lg-0" method = "get" action="/search/">{% csrf_token %}-->
-<!--      <input class="form-control mr-sm-2" type="search" placeholder="Search" name = "query" aria-label="Search">-->
-<!--&lt;!&ndash;      <button class="btn btn-outline-success my-2 my-sm-0"  type="submit">Search</button>&ndash;&gt;-->
-<!--    </form>-->
-  <button type="button" class="btn btn-success mr-2" data-toggle="modal" data-target="#LoginModal">
-  Login
-</button>
+{% if user.is_authenticated %}
+<ul class="navbar-nav mr-2">
+<li class="nav-item dropdown">
+<a class="nav-link dropdown-toggle" href='#' id="navbarDropdown" role="button" data-toggle="dropdown"> Welcome {{request.user}}</a>
+<div class="dropdown-menu" aria-labelledby="navbarDropdown">
+          <a class="dropdown-item" href="/logout">Logout</a>
 
+        </div>
+      </li>
+      </ul>
+      </div>
+{% else %}
+  <!-- Button to  trigger Login modal -->
+<button type="button" class="btn btn-success mr-2" data-toggle="modal" data-target="#LoginModal">
+Login
+</button>
 
 <button type="button" class="btn btn-success mr-2" data-toggle="modal" data-target="#SignupModal">
-  Sign up
+SignUp
 </button>
-
-
-  </div>
+{% endif %}
 </nav>
 
    {% for message in messages %}
@@ -82,6 +88,11 @@
       <div class="modal-body">
 
         <form  action = "/signup/" method = "post">{% csrf_token %}
+  <div class="form-group">
+    <label for="user_name">Username</label>
+    <input type="text" class="form-control" name= "user_name" id="user_name" aria-describedby="user_nameHelp" required>
+
+  </div>
   <div class="form-group">
     <label for="Fname">First Name</label>
     <input type="text" class="form-control" name= "Fname" id="Fname" aria-describedby="FnameHelp" required>
@@ -132,11 +143,11 @@
       </div>
       <div class="modal-body">
 
-        <form>
+        <form method = "post"  action = "/login/">{% csrf_token%}
 
           <div class="form-group">
-    <label for="email_login">Email address</label>
-    <input type="email" class="form-control" name= "email_login" id="email_login" aria-describedby="emailHelp">
+    <label for="username">Username</label>
+    <input type="text" class="form-control" name= "username" id="username" aria-describedby="usernameHelp">
 
   </div>
   <div class="form-group">
