@@ -2,8 +2,22 @@
 
 {% block title %}Blogpost {% endblock title %}
 
-{% block body %}
+{% block css %}
+img{
 
+width: 50px;
+height:50px;
+
+
+}
+
+
+
+{% endblock css%}
+
+{% block body %}
+{% load humanize %}
+{% load static %}
 <div class="container my-4">
 <div class="row">
     <div class="col-md-8 blog-main">
@@ -17,8 +31,11 @@
 
 
 
-
-
+            <br><br>
+<div class = "container">
+    <h5> Comments  ({{comments.count}})</h5>
+    <div>
+        {% if user.is_authenticated %}
         <div class = "container">
    <form action=" /blog/postComment" method = "post">
 
@@ -29,25 +46,58 @@
 
   </div>
        <input type = "hidden" class = "form-control" name = "postSno" value="{{ post.sn }}">
+<input type = "hidden" class = "form-control" name = "parentSno" value="">
+  <button type="submit" class="btn btn-primary">Post</button>
+       </form>
+        {% else %}
+        <div class = "container my-2">
+
+            <h5>Please login to comment</h5>
+        </div>
+        {% endif %}
+            {% for comment in comments %}
+    <div class="row my-3 mx-0">
+        <div class="col-md-1 ">
+       <img class="rounded mx-auto d-block img p-2" src="/static/images/myimage.png"  alt="user" style ="width: 100px height: 100px">
+        </div>
+        <div class="col-md-11 ">
+        <b> {{comment.user.username}} </b>  ({{comment.timestamp | naturaltime}})
+        <div>   {{comment.comment}} </div>
+
+            <div>
+
+  <button class="btn btn-primary btn-sm" type="button" data-toggle="collapse" data-target="#collapse{{comment.sno}}" aria-expanded="false" aria-controls="collapse{{comment.sno}}">
+    Reply
+  </button>
+</div>
+<div class="collapse" id="collapse{{comment.sno}}">
+  <div class="card card-body">
+      <form action=" /blog/postComment" method = "post">
+
+       {% csrf_token %}
+  <div class="form-group">
+    <label for="reply">Enter your reply here</label>
+    <input type="text" class="form-control" id="reply" name = "reply" aria-describedby="commentHelp">
+ <input type = "hidden" class = "form-control" name = "parentSno" value="{{ comment.sno }}">
+  </div>
+       <input type = "hidden" class = "form-control" name = "postSno" value="{{ post.sn }}">
 
   <button type="submit" class="btn btn-primary">Post</button>
        </form>
-            <br><br>
-<div class = "container">
-    <h5> Comments</h5>
-    <div>
-            {% for comment in comments %}
-    <div class="row my-3">
-        <div class="col-md-1  ">
-<!--        <img class="rounded mx-auto d-block w-100 p-2" src="/static/img/user.png"  alt="user">-->
-        </div>
-        <div class="col-md-11 ">
-        <b> {{comment.user.username}} </b> at {{comment.timestamp}}
-        <div>   {{comment.comment}} </div>
+
+
+
+
+
+  </div>
+</div>
+
+
+
     </div>
     </div>
     {% endfor %}
-        </div><!-- /.blog-main -->
+        </div>
 
 
 {% endblock body %}

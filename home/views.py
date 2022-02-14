@@ -84,17 +84,17 @@ def handlelogin(request):
         if user is not None:
             login(request, user)
             messages.success(request, "Youu have successfully loged in")
-            return redirect("home")
+            return redirect("/")
         else:
             messages.error(request, "Invalid credential")
-            return redirect("home")
+            return redirect("/")
 
-    return HttpResponse("login paage")
+    return HttpResponse("login page")
 
 def handlelogout(request):
     logout(request)
     messages.success(request, "Youu have successfully loged out")
-    return redirect("home")
+    return redirect("/")
 
 
 
