@@ -4,11 +4,8 @@
 
 {% block css %}
 img{
-
 width: 50px;
 height:50px;
-
-
 }
 
 
@@ -18,20 +15,19 @@ height:50px;
 {% block body %}
 {% load humanize %}
 {% load static %}
+{% load extras %}
 <div class="container my-4">
 <div class="row">
     <div class="col-md-8 blog-main">
         <div class="blog-post">
-        <h2 class="blog-post-title">{{ post }}</h2>
-        <p class="blog-post-meta">{{ post.timestamp }} by</p> <a href="#">{{ post.author }}</a></p>
+        <h2 class="blog-post-title">{{ post.title }}</h2>
+        <p class="blog-post-meta">{{ post.timestamp }} by</p> <a href="/about">{{ post.author }}</a></p>
 
-        <p>{{ post.content }}</p>
+        <p>{{ post.content|safe }}</p>
         <hr>
       </div><!-- /.blog-post -->
 
-
-
-            <br><br>
+        <br><br>
 <div class = "container">
     <h5> Comments  ({{comments.count}})</h5>
     <div>
@@ -43,10 +39,10 @@ height:50px;
   <div class="form-group">
     <label for="comment">Enter your commnet here</label>
     <input type="text" class="form-control" id="comment" name = "comment" aria-describedby="commentHelp">
-
+  <input type="hidden" name="parentSno" value="">
   </div>
        <input type = "hidden" class = "form-control" name = "postSno" value="{{ post.sn }}">
-<input type = "hidden" class = "form-control" name = "parentSno" value="">
+
   <button type="submit" class="btn btn-primary">Post</button>
        </form>
         {% else %}
@@ -57,46 +53,58 @@ height:50px;
         {% endif %}
             {% for comment in comments %}
     <div class="row my-3 mx-0">
-        <div class="col-md-1 ">
-       <img class="rounded mx-auto d-block img p-2" src="/static/images/myimage.png"  alt="user" style ="width: 100px height: 100px">
+        <div class="col-md-1 "><img class="rounded mx-auto d-block img p-2" src="/static/images/myimage.png"  alt="user" style ="width: 100px height: 100px">
         </div>
         <div class="col-md-11 ">
         <b> {{comment.user.username}} </b>  ({{comment.timestamp | naturaltime}})
         <div>   {{comment.comment}} </div>
 
-            <div>
+             {% if user.is_authenticated %}
+            <div class="reply mx-0">
 
-  <button class="btn btn-primary btn-sm" type="button" data-toggle="collapse" data-target="#collapse{{comment.sno}}" aria-expanded="false" aria-controls="collapse{{comment.sno}}">
-    Reply
-  </button>
+                <button class="btn btn-sm btn-primary" type="button" data-toggle="collapse" data-target="#replyBox{{comment.sno}}" aria-expanded="false" aria-controls="replyBox{{comment.sno}}">
+                    Reply
+                </button>
+                <div class="collapse" id="replyBox{{comment.sno}}">
+                    <div class="card card-body my-2">
+                        <form action="/blog/postComment" method="post">
+                            {% csrf_token %}
+                            <div class="form-group">
+                                <label for="comment">Post a reply </label>
+                                <input type="text" class="form-control"  name="comment" placeholder="Enter reply here">
+                                <input type="hidden" name="parentSno" value="{{comment.sno}}">
+                            </div>
+                            <input type="hidden" name="postSno" value="{{post.sn}}">
+                            <button type="submit" class="btn btn-primary">Submit</button>
+                        </form>
+                    </div>
+                </div>
+                {% else %}
+                <button class="btn btn-sm btn-primary disabled" type="button" data-toggle="collapse" data-target="#replyBox{{comment.sno}}" aria-expanded="false" aria-controls="replyBox{{comment.sno}}">
+                    Login to Reply
+                </button>
+                {% endif %}
+                <div class = "replies my-2">
+                      {% for reply in replyDict|get_val:comment.sno %}
+                    <div class="row my-2">
+                        <div class="col-md-1">
+<img class="rounded mx-auto d-block img p-2" src="/static/images/myimage.png"  alt="user" style ="width: 100px height: 100px">                        </div>
+                        <div class="col-md-11">
+
+                                <b> {{reply.user.username}} </b> <span class="badge badge-secondary ">{{reply.timestamp| naturaltime}}</span>
+                                <div>{{reply.comment}}</div>
+
+                            <br>
+                        </div>
+                    </div>
+{% endfor %}
+
 </div>
-<div class="collapse" id="collapse{{comment.sno}}">
-  <div class="card card-body">
-      <form action=" /blog/postComment" method = "post">
 
-       {% csrf_token %}
-  <div class="form-group">
-    <label for="reply">Enter your reply here</label>
-    <input type="text" class="form-control" id="reply" name = "reply" aria-describedby="commentHelp">
- <input type = "hidden" class = "form-control" name = "parentSno" value="{{ comment.sno }}">
-  </div>
-       <input type = "hidden" class = "form-control" name = "postSno" value="{{ post.sn }}">
-
-  <button type="submit" class="btn btn-primary">Post</button>
-       </form>
-
-
-
-
-
-  </div>
+</div>
 </div>
 
-
-
-    </div>
-    </div>
-    {% endfor %}
+{% endfor %}
         </div>
 
 

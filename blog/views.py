@@ -13,8 +13,19 @@ def bloghome(request):
 
 def blogpost(request, slug):
     post = Post.objects.filter(slug=slug).first()
-    comments = Blogcomment.objects.filter(post=post)
-    context = {"post": post, "comments": comments, "user": request.user}
+    comments = Blogcomment.objects.filter(post=post, parent=None)
+    replies = Blogcomment.objects.filter(post =post).exclude(parent =None)
+    replyDict = {}
+    for reply in replies:
+        if reply.parent.sno not in replyDict.keys():
+            replyDict[reply.parent.sno] = [reply]
+        else:
+            replyDict[reply.parent.sno].append(reply)
+
+
+
+
+    context = {"post": post, "comments": comments, "user": request.user, "replyDict": replyDict}
     return render(request, "blog/blogpost.html", context)
 
 
@@ -27,11 +38,16 @@ def postComment(request):
         parentSno = request.POST.get("parentSno")
         if parentSno == "":
             comment = Blogcomment(comment=comment, user=user, post=post)
+            comment.save()
+            messages.success(request, "You have commented on this")
 
         else:
-             parent = Blogcomment.objects.get(sno=parentSno)
-             comment = Blogcomment(comment = comment, user =user, post=post, parent = parent)
-        comment.save()
-        messages.success(request, "Your reply has been posted successfully")
+            parent = Blogcomment.objects.get(sno = parentSno)
+            comment = Blogcomment(comment = comment, user =user, post=post, parent =parent)
+            comment.save()
+            messages.success(request, "You reply has been posted successfully")
 
-    return redirect(f"/blog/{post.slug}")
+        return redirect(f"/blog/{post.slug}")
+
+
+

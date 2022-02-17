@@ -21,5 +21,5 @@ class Blogcomment(models.Model):
      comment = models.TextField()
      user = models.ForeignKey(User, on_delete= models.CASCADE)
      post = models.ForeignKey(Post, on_delete= models.CASCADE)
-     parent = models.ForeignKey("self",null=True, on_delete= models.CASCADE, )
+     parent = models.ForeignKey("self",null=True, on_delete= models.CASCADE)
      timestamp = models.DateTimeField(default = now)
