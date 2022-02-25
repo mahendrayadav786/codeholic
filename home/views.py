@@ -99,3 +99,7 @@ def handlelogout(request):
 
 
     return HttpResponse("logout paage")
+
+
+def projects(request):
+    return render(request, "home/projects.html")
