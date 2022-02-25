@@ -1,0 +1,302 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="c63070a8-7243-4051-8a3c-7408510c5bcf" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/myblog/Procfile" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/myblog/requirements.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../E-commerce-site/ecs" beforeDir="false" afterPath="$PROJECT_DIR$/../../E-commerce-site/ecs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../PythonLearning/Day56/server.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../PythonLearning/Day56/static/styles.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../PythonLearning/Day56/templates/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../PythonLearning/Day57/server.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../PythonLearning/Day57/static/assets/css/fontawesome-all.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../PythonLearning/Day57/static/assets/css/images/bg.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../PythonLearning/Day57/static/assets/css/images/overlay.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../PythonLearning/Day57/static/assets/css/main.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../PythonLearning/Day57/static/assets/css/noscript.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../PythonLearning/Day57/static/assets/js/breakpoints.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../PythonLearning/Day57/static/assets/js/browser.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../PythonLearning/Day57/static/assets/js/jquery.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../PythonLearning/Day57/static/assets/js/main.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../PythonLearning/Day57/static/assets/js/util.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../PythonLearning/Day57/static/assets/sass/libs/_breakpoints.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../PythonLearning/Day57/static/assets/sass/libs/_functions.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../PythonLearning/Day57/static/assets/sass/libs/_html-grid.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../PythonLearning/Day57/static/assets/sass/libs/_mixins.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../PythonLearning/Day57/static/assets/sass/libs/_vars.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../PythonLearning/Day57/static/assets/sass/libs/_vendor.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../PythonLearning/Day57/static/assets/sass/main.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../PythonLearning/Day57/static/assets/sass/noscript.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../PythonLearning/Day57/static/assets/webfonts/fa-brands-400.eot" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../PythonLearning/Day57/static/assets/webfonts/fa-brands-400.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../PythonLearning/Day57/static/assets/webfonts/fa-brands-400.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../PythonLearning/Day57/static/assets/webfonts/fa-brands-400.woff" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../PythonLearning/Day57/static/assets/webfonts/fa-brands-400.woff2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../PythonLearning/Day57/static/assets/webfonts/fa-regular-400.eot" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../PythonLearning/Day57/static/assets/webfonts/fa-regular-400.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../PythonLearning/Day57/static/assets/webfonts/fa-regular-400.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../PythonLearning/Day57/static/assets/webfonts/fa-regular-400.woff" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../PythonLearning/Day57/static/assets/webfonts/fa-regular-400.woff2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../PythonLearning/Day57/static/assets/webfonts/fa-solid-900.eot" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../PythonLearning/Day57/static/assets/webfonts/fa-solid-900.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../PythonLearning/Day57/static/assets/webfonts/fa-solid-900.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../PythonLearning/Day57/static/assets/webfonts/fa-solid-900.woff" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../PythonLearning/Day57/static/assets/webfonts/fa-solid-900.woff2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../PythonLearning/Day57/static/images/me.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../PythonLearning/Day57/static/images/pic01.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../PythonLearning/Day57/static/images/pic02.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../PythonLearning/Day57/static/images/pic03.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../PythonLearning/Day57/static/images/pic04.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../PythonLearning/Day57/static/images/pic05.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../PythonLearning/Day57/static/images/pic06.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../PythonLearning/Day57/static/images/pic07.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../PythonLearning/Day57/static/images/pic08.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../PythonLearning/Day57/static/images/pic09.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../PythonLearning/Day57/static/images/pic10.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../PythonLearning/Day57/static/images/pic11.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../PythonLearning/Day57/static/images/pic12.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../PythonLearning/Day57/templates/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../PythonLearning/Day58/templates/guess.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../PythonLearning/Day58/templates/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../PythonLearning/Day60/upgradedblog/server.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../PythonLearning/Day61/startbootstrap-clean-blog-gh-pages/main.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../PythonLearning/Day61/startbootstrap-clean-blog-gh-pages/templates/footer.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../PythonLearning/Day61/startbootstrap-clean-blog-gh-pages/templates/header.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../PythonLearning/Day62/templates/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../PythonLearning/Day64/library-start/templates/edit_rating.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../PythonLearning/Day66/flask-secrets/templates/base.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../PythonLearning/Day66/main.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../PythonLearning/Day71/RESTful-blog-start/main.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../PythonLearning/Day71/RESTful-blog-start/poetry.lock" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../PythonLearning/Day71/RESTful-blog-start/posts.db" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../PythonLearning/Day71/RESTful-blog-start/pyproject.toml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../PythonLearning/Day71/RESTful-blog-start/requirements.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../PythonLearning/Day71/RESTful-blog-start/static/css/clean-blog.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../PythonLearning/Day71/RESTful-blog-start/static/css/clean-blog.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../PythonLearning/Day71/RESTful-blog-start/static/img/about-bg.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../PythonLearning/Day71/RESTful-blog-start/static/img/contact-bg.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../PythonLearning/Day71/RESTful-blog-start/static/img/edit-bg.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../PythonLearning/Day71/RESTful-blog-start/static/js/clean-blog.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../PythonLearning/Day71/RESTful-blog-start/static/js/clean-blog.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../PythonLearning/Day71/RESTful-blog-start/static/js/contact_me.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../PythonLearning/Day71/RESTful-blog-start/static/js/jqBootstrapValidation.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../PythonLearning/Day71/RESTful-blog-start/static/scss/_bootstrap-overrides.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../PythonLearning/Day71/RESTful-blog-start/static/scss/_contact.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../PythonLearning/Day71/RESTful-blog-start/static/scss/_footer.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../PythonLearning/Day71/RESTful-blog-start/static/scss/_global.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../PythonLearning/Day71/RESTful-blog-start/static/scss/_masthead.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../PythonLearning/Day71/RESTful-blog-start/static/scss/_mixins.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../PythonLearning/Day71/RESTful-blog-start/static/scss/_navbar.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../PythonLearning/Day71/RESTful-blog-start/static/scss/_post.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../PythonLearning/Day71/RESTful-blog-start/static/scss/_variables.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../PythonLearning/Day71/RESTful-blog-start/static/scss/clean-blog.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../PythonLearning/Day71/RESTful-blog-start/static/vendor/bootstrap/css/bootstrap-grid.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../PythonLearning/Day71/RESTful-blog-start/static/vendor/bootstrap/css/bootstrap-grid.css.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../PythonLearning/Day71/RESTful-blog-start/static/vendor/bootstrap/css/bootstrap-grid.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../PythonLearning/Day71/RESTful-blog-start/static/vendor/bootstrap/css/bootstrap-grid.min.css.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../PythonLearning/Day71/RESTful-blog-start/static/vendor/bootstrap/css/bootstrap-reboot.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../PythonLearning/Day71/RESTful-blog-start/static/vendor/bootstrap/css/bootstrap-reboot.css.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../PythonLearning/Day71/RESTful-blog-start/static/vendor/bootstrap/css/bootstrap-reboot.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../PythonLearning/Day71/RESTful-blog-start/static/vendor/bootstrap/css/bootstrap-reboot.min.css.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../PythonLearning/Day71/RESTful-blog-start/static/vendor/bootstrap/css/bootstrap.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../PythonLearning/Day71/RESTful-blog-start/static/vendor/bootstrap/css/bootstrap.css.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../PythonLearning/Day71/RESTful-blog-start/static/vendor/bootstrap/css/bootstrap.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../PythonLearning/Day71/RESTful-blog-start/static/vendor/bootstrap/css/bootstrap.min.css.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../PythonLearning/Day71/RESTful-blog-start/static/vendor/bootstrap/js/bootstrap.bundle.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../PythonLearning/Day71/RESTful-blog-start/static/vendor/bootstrap/js/bootstrap.bundle.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../PythonLearning/Day71/RESTful-blog-start/static/vendor/bootstrap/js/bootstrap.bundle.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../PythonLearning/Day71/RESTful-blog-start/static/vendor/bootstrap/js/bootstrap.bundle.min.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../PythonLearning/Day71/RESTful-blog-start/static/vendor/bootstrap/js/bootstrap.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../PythonLearning/Day71/RESTful-blog-start/static/vendor/bootstrap/js/bootstrap.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../PythonLearning/Day71/RESTful-blog-start/static/vendor/bootstrap/js/bootstrap.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../PythonLearning/Day71/RESTful-blog-start/static/vendor/bootstrap/js/bootstrap.min.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../PythonLearning/Day71/RESTful-blog-start/static/vendor/fontawesome-free/css/all.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../PythonLearning/Day71/RESTful-blog-start/static/vendor/fontawesome-free/css/all.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../PythonLearning/Day71/RESTful-blog-start/static/vendor/fontawesome-free/css/brands.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../PythonLearning/Day71/RESTful-blog-start/static/vendor/fontawesome-free/css/brands.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../PythonLearning/Day71/RESTful-blog-start/static/vendor/fontawesome-free/css/fontawesome.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../PythonLearning/Day71/RESTful-blog-start/static/vendor/fontawesome-free/css/fontawesome.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../PythonLearning/Day71/RESTful-blog-start/static/vendor/fontawesome-free/css/regular.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../PythonLearning/Day71/RESTful-blog-start/static/vendor/fontawesome-free/css/regular.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../PythonLearning/Day71/RESTful-blog-start/static/vendor/fontawesome-free/css/solid.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../PythonLearning/Day71/RESTful-blog-start/static/vendor/fontawesome-free/css/solid.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../PythonLearning/Day71/RESTful-blog-start/static/vendor/fontawesome-free/css/svg-with-js.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../PythonLearning/Day71/RESTful-blog-start/static/vendor/fontawesome-free/css/svg-with-js.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../PythonLearning/Day71/RESTful-blog-start/static/vendor/fontawesome-free/css/v4-shims.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../PythonLearning/Day71/RESTful-blog-start/static/vendor/fontawesome-free/css/v4-shims.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../PythonLearning/Day71/RESTful-blog-start/static/vendor/fontawesome-free/webfonts/fa-brands-400.eot" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../PythonLearning/Day71/RESTful-blog-start/static/vendor/fontawesome-free/webfonts/fa-brands-400.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../PythonLearning/Day71/RESTful-blog-start/static/vendor/fontawesome-free/webfonts/fa-brands-400.woff" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../PythonLearning/Day71/RESTful-blog-start/static/vendor/fontawesome-free/webfonts/fa-brands-400.woff2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../PythonLearning/Day71/RESTful-blog-start/static/vendor/fontawesome-free/webfonts/fa-regular-400.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../PythonLearning/Day71/RESTful-blog-start/static/vendor/fontawesome-free/webfonts/fa-regular-400.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../PythonLearning/Day71/RESTful-blog-start/static/vendor/fontawesome-free/webfonts/fa-regular-400.woff" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../PythonLearning/Day71/RESTful-blog-start/static/vendor/fontawesome-free/webfonts/fa-regular-400.woff2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../PythonLearning/Day71/RESTful-blog-start/static/vendor/fontawesome-free/webfonts/fa-solid-900.eot" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../PythonLearning/Day71/RESTful-blog-start/static/vendor/fontawesome-free/webfonts/fa-solid-900.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../PythonLearning/Day71/RESTful-blog-start/static/vendor/fontawesome-free/webfonts/fa-solid-900.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../PythonLearning/Day71/RESTful-blog-start/static/vendor/fontawesome-free/webfonts/fa-solid-900.woff" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../PythonLearning/Day71/RESTful-blog-start/static/vendor/fontawesome-free/webfonts/fa-solid-900.woff2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../PythonLearning/Day71/RESTful-blog-start/static/vendor/jquery/jquery.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../PythonLearning/Day71/RESTful-blog-start/static/vendor/jquery/jquery.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../PythonLearning/Day71/RESTful-blog-start/static/vendor/jquery/jquery.min.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../PythonLearning/Day71/RESTful-blog-start/static/vendor/jquery/jquery.slim.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../PythonLearning/Day71/RESTful-blog-start/static/vendor/jquery/jquery.slim.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../PythonLearning/Day71/RESTful-blog-start/static/vendor/jquery/jquery.slim.min.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../PythonLearning/Day71/RESTful-blog-start/templates/about.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../PythonLearning/Day71/RESTful-blog-start/templates/contact.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../PythonLearning/Day71/RESTful-blog-start/templates/footer.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../PythonLearning/Day71/RESTful-blog-start/templates/header.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../PythonLearning/Day71/RESTful-blog-start/templates/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../PythonLearning/Day71/RESTful-blog-start/templates/make-post.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../PythonLearning/Day71/RESTful-blog-start/templates/post.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../PythonLearning/Day74/blog-with-users-end/.idea/blog-with-users-end.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../PythonLearning/Day74/blog-with-users-end/.idea/inspectionProfiles/profiles_settings.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../PythonLearning/Day74/blog-with-users-end/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../PythonLearning/Day74/blog-with-users-end/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../PythonLearning/crud_operation_with_sqlalchemy/main.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../age/age/templates/age/basic.html" beforeDir="false" afterPath="$PROJECT_DIR$/../../age/age/templates/age/basic.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../age-teller/age/age/templates/age/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../age-teller/age/age/views.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../college_management/cms/cms_app/forms.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../college_management/cms/cms_app/hodviews.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../college_management/cms/cms_app/staffviews.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../college_management/cms/cms_app/studentsviews.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../college_management/cms/cms_app/urls.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../college_management_system/cms/cms_app/HodViews.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../college_management_system/cms/cms_app/StaffViews.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../college_management_system/cms/cms_app/StudentViews.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../college_management_system/cms/cms_app/forms.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../college_management_system/cms/cms_app/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/../college_management_system/cms/cms_app/urls.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../college_management_system/cms/templates/base.html" beforeDir="false" afterPath="$PROJECT_DIR$/../college_management_system/cms/templates/base.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../college_management_system/cms/templates/home.html" beforeDir="false" afterPath="$PROJECT_DIR$/../college_management_system/cms/templates/home.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../college_management_system/cms/templates/login.html" beforeDir="false" afterPath="$PROJECT_DIR$/../college_management_system/cms/templates/login.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../college_management_system/cms/templates/registration.html" beforeDir="false" afterPath="$PROJECT_DIR$/../college_management_system/cms/templates/registration.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../college_management_system/requirement.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../college_management_system/requirement.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Procfile" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/requirements.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../news/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/../news/main.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../news/templates/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/../news/templates/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../newsapi/myproject/myproject/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/../newsapi/myproject/myproject/views.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../newsapi/myproject/templates/base.html" beforeDir="false" afterPath="$PROJECT_DIR$/../newsapi/myproject/templates/base.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../newsapi/myproject/templates/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/../newsapi/myproject/templates/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../quote_sender/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/../quote_sender/main.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../top50movies/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/../top50movies/main.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../web_scraping/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/../web_scraping/main.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../pythonclass/inheritance/main,py" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Script" />
+        <option value="HTML File" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/myblog" />
+  </component>
+  <component name="GitSEFilterConfiguration">
+    <file-type-list>
+      <filtered-out-file-type name="LOCAL_BRANCH" />
+      <filtered-out-file-type name="REMOTE_BRANCH" />
+      <filtered-out-file-type name="TAG" />
+      <filtered-out-file-type name="COMMIT_BY_MESSAGE" />
+    </file-type-list>
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectId" id="24m9qVSuaYD8traloT3ol4t8Gj4" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="autoscrollFromSource" value="true" />
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
+    <property name="ASKED_SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="TODO_SCOPE" value="All Places" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/myblog/static/images" />
+    <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/myblog/static/images" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/myblog" />
+      <recent name="$PROJECT_DIR$" />
+      <recent name="$PROJECT_DIR$/myblog/static" />
+    </key>
+  </component>
+  <component name="RunManager">
+    <configuration name="ui" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="myblog" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$USER_HOME$/Documents" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$USER_HOME$/Documents/ui.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Python.ui" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="c63070a8-7243-4051-8a3c-7408510c5bcf" name="Changes" comment="" />
+      <created>1644225089483</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1644225089483</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+  </component>
+</project>
