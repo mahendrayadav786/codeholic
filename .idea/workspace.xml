@@ -176,7 +176,9 @@
       <change beforePath="$PROJECT_DIR$/../college_management_system/cms/templates/registration.html" beforeDir="false" afterPath="$PROJECT_DIR$/../college_management_system/cms/templates/registration.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../college_management_system/requirement.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../college_management_system/requirement.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/db.sqlite3" beforeDir="false" afterPath="$PROJECT_DIR$/db.sqlite3" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/requirements.txt" beforeDir="false" afterPath="$PROJECT_DIR$/requirements.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/base.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/base.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../news/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/../news/main.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../news/templates/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/../news/templates/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../newsapi/myproject/myproject/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/../newsapi/myproject/myproject/views.py" afterDir="false" />
@@ -231,7 +233,7 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="TODO_SCOPE" value="All Places" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/myblog/static/images" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
   </component>
   <component name="RecentsManager">
